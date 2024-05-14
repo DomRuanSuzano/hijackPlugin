@@ -1,4 +1,4 @@
-class TabData {
+class Data {
   constructor() {
       this.reset();
   }
@@ -63,7 +63,7 @@ const tabsData = {};
 browser.tabs.onActivated.addListener(activeInfo => {
     const tabId = activeInfo.tabId;
     if (!tabsData[tabId]) {
-        tabsData[tabId] = new TabData();
+        tabsData[tabId] = new Data();
     }
 });
 

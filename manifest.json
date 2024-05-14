@@ -20,7 +20,7 @@
 
   "browser_action": {
     "default_icon": {
-      "48": "icons/hacker.png"
+      "48": "assets/hacker.png"
     },
     "default_title": "Hackers",
     "default_popup": "popup/popup.html"
