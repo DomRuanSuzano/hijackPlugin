@@ -1,0 +1,38 @@
+{
+  "manifest_version": 2,
+  "name": "Olha lá, Olha só",
+  "version": "1.0",
+  "description": "Uma extensão para ...",
+
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "cookies",
+    "activeTab",
+    "tabs",
+    "storage",
+    "<all_urls>"
+  ],
+
+  "icons": {
+    "48": "icons/hacker.png"
+  },
+
+  "browser_action": {
+    "default_icon": {
+      "48": "icons/hacker.png"
+    },
+    "default_title": "Hackers",
+    "default_popup": "popup/popup.html"
+  },
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "applications": {
+    "gecko": {
+      "id": "OlhalaOlhaso@mozilla.org"
+    }
+  }
+}

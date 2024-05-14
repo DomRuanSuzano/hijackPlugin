@@ -1,0 +1,26 @@
+/* popup.css */
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  width: 200px;
+  padding: 10px;
+  margin: 0;
+}
+
+h1 {
+  font-size: 18px;
+  margin-top: 0;
+}
+
+.privacy-info-item {
+  margin-bottom: 8px;
+}
+
+.privacy-info-label {
+  font-weight: bold;
+}
+
+.privacy-info-value {
+  margin-left: 10px;
+}
